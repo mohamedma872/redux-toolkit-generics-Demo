@@ -1,61 +1,89 @@
-# OSX
-#
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Bundler output
+.bundle/
+.expo/
+
+# React Native
+android/.gradle
+android/app/build
+ios/Pods
+
+# Build artifacts
+build/
+*.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous
+*.swp
+*.swo
 
 # Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
+ios/build/
+DerivedData/
+*.xcworkspace
 
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
+# Android
+android/app/.cxx
+android/local.properties
+
+# Temporary files
+.tmp/
+temp/
+
+# IDEs
+.vscode/
+.idea/
 *.iml
-*.hprof
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
+# Coverage
+coverage/
 
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
-!debug.keystore
+# Expo
+.expo-shared/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
+# ESLint cache
+.eslintcache
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+# Jest
+jest-cache/
+jest-output/
 
-# Bundle artifact
-*.jsbundle
+# Metro bundler
+.expo/
+.rncache/
 
-# Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# React Native packager
+.expo/
+.packager/
+
+# Build-related
+*.xcconfig
+.gradle
+.gradle/
+
+# CocoaPods
+ios/Pods/
+Podfile.lock
